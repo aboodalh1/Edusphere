@@ -1,6 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import QuizCard from '../components/QuizCard';
+import image from '../assets/image.png';
+
+
 
 const Lecture_2 = () => {
   const [rating, setRating] = React.useState(2);
@@ -213,7 +216,7 @@ int main() {
                         </p>
 
                         <div className="my-6">
-                            <img src="/src/assets/image.png" alt="شجرة بحث ثنائية كمثال للاستعلامات" className="mx-auto rounded-lg shadow-md border-4 border-white" />
+                            <img src={image} alt="شجرة بحث ثنائية كمثال للاستعلامات" className="mx-auto rounded-lg shadow-md border-4 border-white" />
                             <figcaption className="text-center text-gray-500 text-sm mt-2">مثال لشجرة بحث ثنائية المستخدمة للاستعلامات.</figcaption>
                         </div>
 

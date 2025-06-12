@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-
+import logo from "../assets/Logo.svg";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -76,7 +76,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Right side - Logo and Name */}
           <Link to="/" className="flex items-center gap-2 sm:gap-3">
-            <img src="src\assets\Logo.svg" className="h-8 sm:h-10 w-auto" alt="Logo" />
+            <img src={logo} className="h-8 sm:h-10 w-auto" alt="Logo" />
           </Link>
 
           {/* Center - Navigation Links */}

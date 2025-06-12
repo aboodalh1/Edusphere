@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar'; // Assuming you have this component
 import QuizCard from '../components/QuizCard'; // Assuming you have this component
-
+import image1 from '../assets/image_1.png';
+import image2 from '../assets/image_2.png';
+import image3 from '../assets/image_3.png';
 const Lecture = () => {
     const [rating, setRating] = React.useState(2);
     const [hoverRating, setHoverRating] = React.useState(0);
@@ -48,7 +50,7 @@ const Lecture = () => {
                         </p>
 
                         <div className="my-6">
-                            <img src="/src/assets/image_1.png" alt="مثال لشجرة البادئات (Trie)" className="mx-auto rounded-lg shadow-md border-4 border-white" />
+                            <img src={image1} alt="مثال لشجرة البادئات (Trie)" className="mx-auto rounded-lg shadow-md border-4 border-white" />
                             <figcaption className="text-center text-gray-500 text-sm mt-2">مثال لشجرة البادئات (Trie) لتوضيح الإكمال التلقائي. </figcaption>
                         </div>
 
@@ -62,7 +64,7 @@ const Lecture = () => {
                         <h2 className="text-3xl font-bold mt-10 mb-4 pb-2 border-b-2 border-gray-200">طرق التجوال <span className="ltr-inline">(Traversal)</span></h2>
 
                         <div className="my-6">
-                            <img src="/src/assets/image_2.png" alt="طرق التجوال" className="mx-auto rounded-lg shadow-md border-4 border-white" />
+                            <img src={image2} alt="طرق التجوال" className="mx-auto rounded-lg shadow-md border-4 border-white" />
                             <figcaption className="text-center text-gray-500 text-sm mt-2">الطرق الرئيسية للتجوال في الأشجار. </figcaption>
                         </div>
 
@@ -75,7 +77,7 @@ const Lecture = () => {
 
                         <div className="my-6">
                             {/* Placeholder for the example tree image */}
-                            <img src="/src/assets/image_3.png" alt="شجرة مثال موحدة للتجوال" className="mx-auto rounded-lg shadow-md border-4 border-white" />
+                            <img src={image3} alt="شجرة مثال موحدة للتجوال" className="mx-auto rounded-lg shadow-md border-4 border-white" />
                             <figcaption className="text-center text-gray-500 text-sm mt-2">شجرة البحث الثنائية المستخدمة كمثال.</figcaption>
                         </div>
 

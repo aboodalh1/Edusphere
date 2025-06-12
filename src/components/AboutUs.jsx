@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo_2 from '../assets/Logo_2.svg';
 const AboutUs = () => {
   return (
     <section className="h-[500px] bg-white  relative">
@@ -10,7 +10,7 @@ const AboutUs = () => {
           <div className="relative">
             {/* Gradient Circle */}
             <div className="absolute left-0 top-1/2 transform -translate-y-1/2">
-<img src="src/assets/Logo_2.svg" className="w-96 h-auto" alt="Logo" />
+<img src={logo_2} className="w-96 h-auto" alt="Logo" />
               {/* <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary-light via-accent-teal to-background-subtle opacity-20"></div> */}
             </div>
 
