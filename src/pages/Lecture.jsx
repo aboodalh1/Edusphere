@@ -51,7 +51,6 @@ const Lecture = () => {
 
                         <div className="my-6">
                             <img src={image1} alt="مثال لشجرة البادئات (Trie)" className="mx-auto rounded-lg shadow-md border-4 border-white" />
-                            <figcaption className="text-center text-gray-500 text-sm mt-2">مثال لشجرة البادئات (Trie) لتوضيح الإكمال التلقائي. </figcaption>
                         </div>
 
                         <p className="text-lg leading-relaxed mb-6">
