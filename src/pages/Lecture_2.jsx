@@ -28,7 +28,7 @@ const Lecture_2 = () => {
                             <a href="#" className="p-4 rounded-lg min-w-[180px] text-center flex-shrink-0 bg-accent-teal text-primary-dark">
                                 <div>
                                     <span className="block text-sm">المحاضرة الثالثة</span>
-                                    <span className="block font-bold text-base mt-1">Binary Search Trees</span>
+                                    <span className="block font-bold text-base mt-1">AVL Trees</span>
                                 </div>
                             </a>
                         </div>
