@@ -21,18 +21,18 @@ const Lecture = () => {
                     </div>
                 </header>
 
-             <nav className="bg-primary-light py-4 border-t border-white/20">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-4 overflow-x-auto pb-2 scrollbar-hide">
-            <a href="/lecture_2" className="p-4 rounded-lg min-w-[180px] text-center flex-shrink-0 bg-accent-teal text-primary-dark">
-                <div>
-                    <span className="block text-sm">المحاضرة الثانية</span>
-                    <span className="block font-bold text-base mt-1">Binary Search Tree</span>
-                </div>
-            </a>
-        </div>
-    </div>
-</nav>
+                <nav className="bg-primary-light py-4 border-t border-white/20">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="flex items-center gap-4 overflow-x-auto pb-2 scrollbar-hide">
+                            <a href="#" className="p-4 rounded-lg min-w-[180px] text-center flex-shrink-0 bg-accent-teal text-primary-dark">
+                                <div>
+                                    <span className="block text-sm">المحاضرة الثانية</span>
+                                    <span className="block font-bold text-base mt-1">Binary Search Tree</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
 
                 <div className="bg-gray-100 font-teshrin text-primary-dark">
                     <div className="container max-w-5xl mx-auto my-10 p-8 bg-white rounded-xl shadow-lg">

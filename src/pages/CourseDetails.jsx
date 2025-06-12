@@ -61,7 +61,8 @@ const CourseDetails = () => {
           </div>
         </div>
       </div>
-
+    
+           
       {/* Lectures Section */}
       <div className="w-full bg-background-subtle py-12">
         <div className="container mx-auto px-4">
@@ -75,9 +76,12 @@ const CourseDetails = () => {
               <LectureCard key={index} {...lecture} />
             ))}
           </div>
+           
         </div>
       </div>
     </div>
+
+    
   );
 };
 
